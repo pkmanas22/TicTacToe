@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/b1"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_marginLeft="10dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_marginLeft="10dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b4"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_marginLeft="10dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_marginLeft="10dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b7"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_marginLeft="10dp"
+            android:onClick="check" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_marginLeft="10dp"
+            android:onClick="check" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="RESTART"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#98D84E"
+        android:text="made by Manas"
+        android:textSize="10sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
+
